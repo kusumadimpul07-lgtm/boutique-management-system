@@ -286,7 +286,7 @@ function Catalog() {
         )
         .catch(() => setError("Could not load designers."));
     }
-  }, []);
+  }, [user?.role]);
 
   const fetchCatalog = async () => {
     try {
