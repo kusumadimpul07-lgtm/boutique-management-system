@@ -1,4 +1,19 @@
-# BOUTIQ - Boutique Management System
+
+# BOUTIQ – Boutique Management System
+
+A full-stack boutique management system built with the MERN stack to manage customers, measurements, designs, orders, deliveries, payments, and staff operations from a single platform.
+
+🌐 **Live Demo:** https://boutique-management-system-27xwnggdn-aiin1.vercel.app/
+
+---
+
+## 🚀 Overview
+
+BOUTIQ is a web-based boutique management application designed to simplify day-to-day boutique operations.
+
+The system provides separate experiences for boutique staff and customers, allowing the business to manage orders and customer information while customers can browse designs and track their orders.
+
+---
 
 A simple, beginner-friendly MERN stack web app for managing a boutique or tailoring shop: customers, measurements, orders, deliveries, payments, staff, and more. Built with plain JavaScript only — no TypeScript, no Vite.
 
