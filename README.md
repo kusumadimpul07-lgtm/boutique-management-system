@@ -77,6 +77,14 @@ Every source file is plain JavaScript (`.js`) — no `.ts`/`.tsx` files and no V
 13. Settings (update your own name/phone/password)
 14. Optional AI Assistant chatbot
 
+## Portfolio preview
+
+The public home page at `/` introduces the product, and `/demo` provides a
+read-only, interactive preview using fictional sample data. The demo is
+frontend-only and does not connect to the live API or expose owner or customer
+accounts. Staff, owner, designer, and customer features continue to require
+their normal sign-in.
+
 ## Customer Portal
 
 Customers have their own separate login at `/customer-login` (distinct from the staff/owner login at `/login`), using their **phone number + a password**. From there they can see their own orders, order status, delivery info, design/reference images, payment history, and pay their remaining balance online.

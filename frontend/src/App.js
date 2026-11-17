@@ -29,6 +29,8 @@ import CustomerProfile from "./pages/customer/CustomerProfile";
 import CustomerOrderRequest from "./pages/customer/CustomerOrderRequest";
 import CustomerHome from "./pages/customer/CustomerHome";
 import CustomerAIAssistant from "./pages/customer/CustomerAIAssistant";
+import PortfolioHome from "./pages/PortfolioHome";
+import PortfolioDemo from "./pages/PortfolioDemo";
 
 function App() {
   return (
@@ -36,6 +38,9 @@ function App() {
       <CustomerAuthProvider>
         <BrowserRouter>
           <Routes>
+            <Route path="/" element={<PortfolioHome />} />
+            <Route path="/demo" element={<PortfolioDemo />} />
+
             {/* ---------- Staff / Owner admin area ---------- */}
             <Route path="/login" element={<Login />} />
             <Route path="/designer-login" element={<Login designerOnly />} />
@@ -223,7 +228,6 @@ function App() {
               }
             />
 
-            <Route path="/" element={<Login />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
