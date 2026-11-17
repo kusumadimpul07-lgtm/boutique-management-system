@@ -3,7 +3,11 @@
 
 A full-stack boutique management system built with the MERN stack to manage customers, measurements, designs, orders, deliveries, payments, and staff operations from a single platform.
 
-🌐 **Live Demo:** https://boutique-management-system-27xwnggdn-aiin1.vercel.app/
+🌐 **Live Portfolio:** [https://boutique-management-system-chi.vercel.app/](https://boutique-management-system-chi.vercel.app/)
+
+🧵 **Interactive Demo:** [https://boutique-management-system-chi.vercel.app/demo](https://boutique-management-system-chi.vercel.app/demo)
+
+💻 **GitHub:** [https://github.com/kusumadimpul07-lgtm/boutique-management-system](https://github.com/kusumadimpul07-lgtm/boutique-management-system)
 
 ---
 
